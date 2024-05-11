@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(59, 59, 59));
+}
+
+.recipiente {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.principal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8vw;
+}
+
+.principal2 {
+  width: 95%;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+.lista {
+  color: white;
+}
+
+.lista ul {
+  list-style: none;
+  display: flex;
+}
+
+.lista ul li a {
+  color: white;
+  font-size: 1.8vw;
+  margin-left: 3px;
+}
+
+.titulo {
+  color: white;
+  margin-top: 4.8vw;
+  width: 100%;
+  font-size: 5vw;
+  font-weight: 400;
+}
+
+.filmes {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.exibir {
+  width: 30%;
+  position: relative;
+}
+
+.filme {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.filme img {
+  width: 100%;
+  height: auto;
+}
+
+.data {
+  background-color: #191919;
+  width: 75%;
+  position: absolute;
+  border-radius: 20px;
+  left: 12.5%;
+  text-align: center;
+  color: white;
+  font-size: 1.6vw;
+  top: 40.8vw;
+}
+
+.texto {
+  width: 100%;
+  color: aliceblue;
+  margin-bottom: 3vw;
+}
+
+.texto p {
+  font-size: 1.6vw;
+}
+
+.texto a {
+  color: aliceblue;
+}
+
+.texto a:hover {
+  color: aliceblue;
+}
+
+.texto a:link {
+  text-decoration: none;
+}
+
+.icones {
+  margin-top: 2.4vw;
+}
+
+.icones span {
+  font-size: 1.6vw;
+  margin-right: 1.2vw;
+}
+
+.icones i {
+  font-size: 2.5vw;
+  margin-bottom: 4%;
+}
+
+.idadelivre {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #00a651;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
+
+.idade10 {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #0095da;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
+
+.idade12 {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #fbc115;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
+
+.idade14 {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #f58220;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
+
+.idade18 {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #000000;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
+
+.idadeduvida {
+  position: absolute;
+  top: 2.5%;
+  left: 4%;
+  height: auto;
+  width: 10%;
+  padding: 1%;
+  background-color: #666666;
+  font-size: 1.6vw;
+  text-align: center;
+  color: white;
+}
